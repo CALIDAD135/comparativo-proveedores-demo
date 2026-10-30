@@ -1341,7 +1341,7 @@ body.demo #hdrSyncBtn{display:none!important}
    DEMO_MODE=false → comportamiento de producción sin cambios.
 ══════════════════════════════════════════ */
 const DEMO_MODE=true;
-const DEMO_CONTACTO={nombre:'Lic. Marcos Xool, Coordinación de Activos Fijos y Control Vehicular',email:'',whatsapp:''}; // complete email / WhatsApp (52+10 dígitos) para el envío de observaciones
+const DEMO_CONTACTO={nombre:'Lic. Marcos Xool, Coordinación de Activos Fijos y Control Vehicular',email:'coordinacion.activofijo@iesinternacional.com',whatsapp:'529982416143'}; // complete email / WhatsApp (52+10 dígitos) para el envío de observaciones
 const localStorage=DEMO_MODE?(()=>{const W=window.localStorage,P='ies_demo__';return{
   getItem:k=>W.getItem(P+k),setItem:(k,v)=>W.setItem(P+k,String(v)),removeItem:k=>W.removeItem(P+k)};})():window.localStorage;
 if(DEMO_MODE)document.body.classList.add('demo');
